@@ -17,26 +17,26 @@ nav
 {
 	position: relative;
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 	overflow: hidden;
 }
 .menu-main
 {
+	justify-content: center;
 	width: 100%;
 	display: flex;
 	line-height: 44px;
 	text-decoration: none;
 	font-size: 35px;
 	font-family: 'Brush Script MT';
-	font-style: italic;
 	font-weight: 700;
-	color: #e0e0ff;
-	text-align: center;
+	color: #fff;
 }
 h2 {
   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
+  color: #4c4c4c;
+  background-color: #d9d7dc;
 }
 
 ul {
@@ -48,6 +48,7 @@ ul {
 li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
+  background-color: #ceccd7;
 }
  
 li:last-child {
@@ -58,7 +59,8 @@ li a {
   text-decoration: none;
   color: #000;
   display: block;
-  width: 300px;
+  width: 100%;
+  padding-left: 3%;
  
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
