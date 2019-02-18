@@ -52,8 +52,6 @@ nav
 .title
 {
 	font-size: 40px;
-	color: #fff;
-	min-height: 500px;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	color: #000;
+	margin: 10;
 }
