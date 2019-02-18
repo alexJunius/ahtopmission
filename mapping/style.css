@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+nav
+{
+	height: 44px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	background: #000;
+}
+.menu
+{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.menu ul
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li
+{
+	list-style: none;
+}
+.menu ul li,
+.menu ul li a
+{
+	color: #fff;
+	line-height: 44px;
+	text-decoration: none;
+}
+
+.menu ul li .menu-main
+{
+	font-size: 35px;
+	font-family: 'Brush Script MT';
+	font-style: italic;
+	font-weight: 700;
+	color: #e0e0ff;
+}
+
+.title
+{
+	font-size: 40px;
+	color: #fff;
+	min-height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
