@@ -20,28 +20,12 @@ nav
 	width: 80%;
 	overflow: hidden;
 }
-.menu ul
+.menu-main
 {
 	width: 100%;
-	margin: 0;
-	padding: 0;
 	display: flex;
-	justify-content: space-between;
-}
-.menu ul li
-{
-	list-style: none;
-}
-.menu ul li,
-.menu ul li a
-{
-	color: #fff;
 	line-height: 44px;
 	text-decoration: none;
-}
-
-.menu ul li .menu-main
-{
 	font-size: 35px;
 	font-family: 'Brush Script MT';
 	font-style: italic;
@@ -49,10 +33,41 @@ nav
 	color: #e0e0ff;
 	text-align: center;
 }
+h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-.title
-{
-	font-size: 40px;
-	color: #000;
-	margin: 10;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 300px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
 }
