@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
-body
-{
+body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-nav
-{
+
+nav {
 	height: 44px;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0px;
 	background: #000;
 }
-.menu
-{
+
+.menu {
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
 	overflow: hidden;
 }
+
 .menu-main {
 	justify-content: center;
 	width: 100%;
@@ -31,43 +31,43 @@ nav
 	font-weight: 700;
 	color: #fff;
 }
+
 h2 {
-  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
-  margin: 0;
-  color: #4c4c4c;
-  background-color: #d9d7dc;
+	font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+	margin: 0;
+	color: #4c4c4c;
+	background-color: #d9d7dc;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
- 
+
 li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 1px solid #ccc;
-  background-color: #ceccd7;
+	font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+	border-bottom: 1px solid #ccc;
+	background-color: #ceccd7;
 }
- 
+
 li:last-child {
-  border: none;
+	border: none;
 }
- 
+
 li a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  width: 100%;
- 
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 100%;
+	-webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-o-transition: font-size 0.3s ease, background-color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+	transition: font-size 0.3s ease, background-color 0.3s ease;
 }
- 
+
 li a:hover {
-  font-size: 30px;
-  background: #f6f6f6;
+	font-size: 30px;
+	background: #f6f6f6;
 }
